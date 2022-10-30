@@ -9,12 +9,12 @@ public class Main {
         String action = scanner.nextLine();
 
         System.out.println("Введите первое число");
-        String firstArg = scanner.nextLine();
+        String firstArgument = scanner.nextLine();
 
         System.out.println("Введите второе число");
-        String secondArg = scanner.nextLine();
+        String secondArgument = scanner.nextLine();
 
-        Double result = caclculator.calculate(Double.parseDouble(firstArg), Integer.parseInt(secondArg), action);
+        Double result = caclculator.calculate(Double.parseDouble(firstArgument), Double.parseDouble(secondArgument), action);
         System.out.println("Результат вычислений: " + result);
     }
 }
